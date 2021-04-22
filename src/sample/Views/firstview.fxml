@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="750.0" stylesheets="@../assert/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Controller">
+    <children>
+        <Button fx:id="btn" layoutX="122.0" layoutY="320.0" mnemonicParsing="false" onAction="#goToSecondScene" prefHeight="39.0" prefWidth="158.0" style="-fx-background-color: E7631B; -fx-text-fill: fff;" text="Commencer" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="618.0" prefWidth="911.0" stylesheets="@../assert/stylePage2.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Controller">
+   <children>
+
+       
+      <VBox layoutX="300.0" layoutY="200.0" prefHeight="300.0" prefWidth="276.0">
+         <children>
+            <ListView fx:id="listAnimal" prefHeight="320.0" prefWidth="423.0" />
+         </children></VBox>
+
+
+      <Label layoutX="290.0" layoutY="99.0" prefHeight="30.0" prefWidth="293.0" text="Affichage des animaux" textFill="#92482c">
+         <font>
+            <Font name="Georgia Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="creerSolution" layoutX="370.0" layoutY="500.0" mnemonicParsing="false"
+              onAction="#creerSol" prefHeight="38.0" prefWidth="144.0" style="-fx-background-color: #0E99A1;"
+              text="Voir Animals" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Medium" size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
